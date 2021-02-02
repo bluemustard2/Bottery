@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.bluemustard2'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // jsoup HTML parser library @ https://jsoup.org/
+    implementation 'org.jsoup:jsoup:1.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}
